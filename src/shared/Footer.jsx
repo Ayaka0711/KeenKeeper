@@ -1,45 +1,47 @@
 import React from "react";
-import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaInstagram, FaFacebookF } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6"; // Using Fa6 for the X logo
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-white mt-10">
-      <div className="max-w-6xl mx-auto px-4 py-10">
+    <footer className="bg-[#1a4332] text-white py-12 px-6 font-sans">
+      <div className="max-w-4xl mx-auto flex flex-col items-center text-center">
         
-        <div className="flex flex-col md:flex-row justify-between gap-8">
-          
-          <div>
-            <h2 className="text-xl font-bold">KeenKeeper</h2>
-            <p className="text-gray-400 mt-2 text-sm md:text-base">
-              A simple app to manage your tasks and stay productive.
-            </p>
-          </div>
+        {/* Brand Name */}
+        <h2 className="text-5xl md:text-6xl font-bold mb-4 tracking-tight">
+          KeenKeeper
+        </h2>
 
-          <div className="flex flex-col gap-2 text-sm md:text-base">
-            <h3 className="font-semibold mb-2">Quick Links</h3>
-            <a href="#" className="text-gray-400 hover:text-white">Home</a>
-            <a href="#" className="text-gray-400 hover:text-white">About</a>
-            <a href="#" className="text-gray-400 hover:text-white">Contact</a>
-          </div>
+        {/* Tagline */}
+        <p className="text-gray-300 text-sm md:text-base max-w-2xl mb-8 leading-relaxed">
+          Your personal shelf of meaningful connections. Browse, tend, and nurture the relationships that matter most.
+        </p>
 
-          <div>
-            <h3 className="font-semibold mb-2">Follow Us</h3>
-            <div className="flex gap-4 text-xl">
-              <a href="#" className="hover:text-blue-500">
-                <FaFacebook />
-              </a>
-              <a href="#" className="hover:text-gray-400">
-                <FaGithub />
-              </a>
-              <a href="#" className="hover:text-blue-400">
-                <FaLinkedin />
-              </a>
-            </div>
+        {/* Social Links Section */}
+        <div className="flex flex-col items-center gap-4 mb-12">
+          <h3 className="text-lg font-medium">Social Links</h3>
+          <div className="flex gap-4">
+            <a href="#" className="bg-white text-black p-3 rounded-full hover:bg-gray-200 transition-colors">
+              <FaInstagram size={20} />
+            </a>
+            <a href="#" className="bg-white text-black p-3 rounded-full hover:bg-gray-200 transition-colors">
+              <FaFacebookF size={20} />
+            </a>
+            <a href="#" className="bg-white text-black p-3 rounded-full hover:bg-gray-200 transition-colors">
+              <FaXTwitter size={20} />
+            </a>
           </div>
         </div>
 
-        <div className="border-t border-gray-700 mt-8 pt-4 text-center text-gray-500 text-sm">
-          © {new Date().getFullYear()} KeenKeeper. All rights reserved.
+        {/* Bottom Bar */}
+        <div className="w-full border-t border-gray-600/30 pt-6 flex flex-col md:flex-row justify-between items-center gap-4 text-xs md:text-sm text-gray-400">
+          <p>© {new Date().getFullYear()} KeenKeeper. All rights reserved.</p>
+          
+          <div className="flex gap-6">
+            <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
+            <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
+            <a href="#" className="hover:text-white transition-colors">Cookies</a>
+          </div>
         </div>
 
       </div>

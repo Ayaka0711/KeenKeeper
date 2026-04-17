@@ -27,7 +27,7 @@ const HomePage = () => {
     <>
       <div className="p-6 rounded-lg bg-white text-center">
         <h1 className="text-4xl mt-8 font-bold">
-          Friends Status Dashboard
+          Friends to keep close in your life
         </h1>
 
         <p className='text-s text-gray-600 mt-6'>Your personal shelf of meaningful connections. Browse, tend, and nurture the

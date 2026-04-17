@@ -1,12 +1,9 @@
 
 import './App.css'
-
 function App() {
-
-  return (
+ return (
     <>
-     
-         <h2 className=' bg-red-700'>this is app</h2>
+      <h2 className=' bg-red-700'>this is app</h2>
     </>
   )
 }
