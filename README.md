@@ -67,6 +67,3 @@ A mobile-first design optimized for all screen sizes:
 6. React Toastify
 7. LocalStorage API
 
-**Purpose**
-
-KeenKeeper is designed to demonstrate state management, data visualization, and real-time UI updates in a modern React application.
