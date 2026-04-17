@@ -1,10 +1,9 @@
-###KeenKeeper – Friendship Analytics & Interaction Tracker
+**KeenKeeper – Friendship Analytics & Interaction Tracker**
 
 KeenKeeper is a modern React-based interaction tracking and analytics web application that helps users log and analyze their daily communications. It allows you to record interactions such as calls, messages, and video calls, and visualize activity patterns through an interactive dashboard.
 
-###Key Features
-
-##Interaction Tracking System
+**Key Features**
+Interaction Tracking System
 
 Users can log real-time activities including Audio Calls, Messages, and Video Calls.
 Each entry is stored with:
@@ -13,7 +12,7 @@ Each entry is stored with:
 2. User name
 3. Timestamp
 
-##Timeline
+**Timeline**
 
 A chronological activity feed built using React Context API with persistent storage via localStorage.
 
@@ -22,7 +21,7 @@ A chronological activity feed built using React Context API with persistent stor
 3. Clean and readable activity history
 
 
-##Analytics Dashboard
+**Analytics Dashboard**
 
 An interactive dashboard powered by Recharts.
 
@@ -30,7 +29,7 @@ An interactive dashboard powered by Recharts.
 2. Breakdown of Calls, Messages, and Video Calls
 3. Fully responsive and dynamic UI
 
-##Filtering System
+**Filtering System**
 
 Easily filter timeline activities by category:
 
@@ -41,7 +40,7 @@ Easily filter timeline activities by category:
 
 Instant updates without page reload for a smooth user experience.
 
-##User Feedback System
+**User Feedback System**
 
 Integrated React Toastify for real-time notifications:
 
@@ -51,7 +50,7 @@ Integrated React Toastify for real-time notifications:
 
 Provides instant feedback for every user action.
 
-##Responsive UI
+**Responsive UI**
 
 A mobile-first design optimized for all screen sizes:
 
@@ -59,7 +58,7 @@ A mobile-first design optimized for all screen sizes:
 2. Clean card-based interface
 3. Smooth navigation experience
 
-##Tech Stack
+**Tech Stack**
 1. React.js
 2. React Router DOM
 3. Context API
@@ -68,6 +67,6 @@ A mobile-first design optimized for all screen sizes:
 6. React Toastify
 7. LocalStorage API
 
-##Purpose
+**Purpose**
 
 KeenKeeper is designed to demonstrate state management, data visualization, and real-time UI updates in a modern React application.
